@@ -1,0 +1,88 @@
+body {
+  font-family: Trebuchet;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 200vh;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+a {
+  color: inherit;
+  text-decoration: ;
+}
+
+ul li, ol li {
+     line-height:100%;
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: auto 1fr auto;
+
+  }
+}
+
+header {
+  grid-column: span 3;
+  padding: 25px;
+  text-align: center;
+  font-size: 1.2em;
+  background-color: #92bbea;
+  color: white;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+nav {
+  line-height:160%;
+  background-color: #ebebee;
+  padding: 20px;
+}
+
+aside {
+    margin-bottom: 0em;
+  padding: 20px;
+  background-color: #ebebee;
+}
+
+footer {
+  grid-column: span 3;
+  padding: 6px;
+  text-align: center;
+  font-size: .8em;
+  background-color: #92bbea;
+  color: black;
+}
+
+h1 {
+  margin-bottom: .5em;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+Related links {
+    margin-bottom: .5em;
+  padding: 20px;
+  background-color: #ebebee;
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
